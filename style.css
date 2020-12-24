@@ -451,20 +451,16 @@ a {
 
 .container {
     margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
-    margin-top: 4rem;
+    overflow: hidden;
+    padding: 30px 10px;
+    margin-top: 3rem;
 }
 
 
 .text-primary {
-    color: #f7c08a;
+    color: darkgoldenrod;
 }
 
-.py-3 {
-    padding: 30px 0;
-}
 
 #contact-form .form-group {
     margin-bottom: 20px;
@@ -510,9 +506,7 @@ a {
 .boxs {
     display: inline-block;
     justify-content: space-evenly;
-    margin-left: 7rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    padding
 }
 
 
@@ -599,14 +593,59 @@ a {
 
 
 /* MOBILE */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:769px) {
     .navbar {
         text-align: center;
         justify-content: center;
-        margin-left: 10px;
     }
 
     .navbar.top a {
-        color: #333;
+        color: #000000;
+    }
+
+    .flex-grid .column {
+        padding-bottom: 40px;
+        box-shadow: none;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .flex-grid .row {
+        display: block;
+    }
+
+
+    .gallery {
+        padding-top: 0px;
+    }
+
+    .gallery h1 {
+        padding-left: 5px;
+    }
+
+    .grid-section {
+        display: block;
+    }
+
+    .grid-about-section {
+        display: block;
+    }
+
+    .social {
+        font-size: 10px;
+    }
+
+    .boxs {
+        display: table-footer-group;
+    }
+
+    .contact-info {
+        padding: 10px 20px;
+    }
+
+    .footer-left {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        font-size: 13px;
     }
 }
