@@ -6,3 +6,4 @@ Booking option is not coded.
 
 Live demo
 https://technicado.github.io/vacation-inn/
+did you get changed
